@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44610A5913697DF10073C47A /* ManagedObjectStringEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 44610A5813697DF10073C47A /* ManagedObjectStringEditor.m */; };
+		4482A5F613798F69004E8B08 /* PANELCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4482A5F513798F68004E8B08 /* PANELCell.xib */; };
+		44ABA19A137D0306007C1D11 /* PANELCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44ABA199137D0306007C1D11 /* PANELCell.m */; };
+		44CA9CF8136317760069815F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CA9CF7136317760069815F /* UIKit.framework */; };
+		44CA9CFA136317760069815F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CA9CF9136317760069815F /* Foundation.framework */; };
+		44CA9CFC136317760069815F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CA9CFB136317760069815F /* CoreGraphics.framework */; };
+		44CA9CFE136317760069815F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CA9CFD136317760069815F /* CoreData.framework */; };
+		44CA9D04136317760069815F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44CA9D02136317760069815F /* InfoPlist.strings */; };
+		44CA9D07136317760069815F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CA9D06136317760069815F /* main.m */; };
+		44CA9D0A136317760069815F /* AreaDeDescansoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CA9D09136317760069815F /* AreaDeDescansoAppDelegate.m */; };
+		44CA9D0D136317760069815F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44CA9D0B136317760069815F /* MainWindow.xib */; };
+		44CA9D10136317760069815F /* AreaDeDescanso.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44CA9D0E136317760069815F /* AreaDeDescanso.xcdatamodeld */; };
+		44CA9D1913631AE90069815F /* PanelListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CA9D1713631AE90069815F /* PanelListViewController.m */; };
+		44CA9D1A13631AE90069815F /* PanelListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44CA9D1813631AE90069815F /* PanelListViewController.xib */; };
+		44D1CE86136B12DA0046AAB5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D1CE85136B12DA0046AAB5 /* CFNetwork.framework */; };
+		44D1CE92136B3B340046AAB5 /* Cliente.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D1CE91136B3B340046AAB5 /* Cliente.m */; };
+		44D1CE95136B752C0046AAB5 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D1CE94136B752C0046AAB5 /* AsyncSocket.m */; };
+		44D4D284138010A10034C004 /* Panel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D4D283138010A10034C004 /* Panel.m */; };
+		44D4D288138271890034C004 /* UIColorRGBValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D4D287138271880034C004 /* UIColorRGBValueTransformer.m */; };
+		44E819BF1365E1BC0086AC16 /* PanelEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E819BE1365E1BC0086AC16 /* PanelEditController.m */; };
+		44E819C41365E9D20086AC16 /* NSArray-NestedArrays.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E819C31365E9D20086AC16 /* NSArray-NestedArrays.m */; };
+		44E819C71365EC860086AC16 /* PanelValueDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E819C61365EC860086AC16 /* PanelValueDisplay.m */; };
+		44E819CA136619200086AC16 /* ManagedObjectAttributeEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E819C9136619200086AC16 /* ManagedObjectAttributeEditor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44610A5713697DF00073C47A /* ManagedObjectStringEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagedObjectStringEditor.h; sourceTree = "<group>"; };
+		44610A5813697DF10073C47A /* ManagedObjectStringEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagedObjectStringEditor.m; sourceTree = "<group>"; };
+		4482A5F513798F68004E8B08 /* PANELCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PANELCell.xib; sourceTree = "<group>"; };
+		44ABA198137D0306007C1D11 /* PANELCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PANELCell.h; path = ../PANELCell.h; sourceTree = "<group>"; };
+		44ABA199137D0306007C1D11 /* PANELCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PANELCell.m; path = ../PANELCell.m; sourceTree = "<group>"; };
+		44CA9CF3136317760069815F /* AreaDeDescanso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AreaDeDescanso.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CA9CF7136317760069815F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		44CA9CF9136317760069815F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		44CA9CFB136317760069815F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		44CA9CFD136317760069815F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		44CA9D01136317760069815F /* AreaDeDescanso-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AreaDeDescanso-Info.plist"; sourceTree = "<group>"; };
+		44CA9D03136317760069815F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44CA9D05136317760069815F /* AreaDeDescanso-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AreaDeDescanso-Prefix.pch"; sourceTree = "<group>"; };
+		44CA9D06136317760069815F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44CA9D08136317760069815F /* AreaDeDescansoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AreaDeDescansoAppDelegate.h; sourceTree = "<group>"; };
+		44CA9D09136317760069815F /* AreaDeDescansoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AreaDeDescansoAppDelegate.m; sourceTree = "<group>"; };
+		44CA9D0C136317760069815F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		44CA9D0F136317760069815F /* AreaDeDescanso.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AreaDeDescanso.xcdatamodel; sourceTree = "<group>"; };
+		44CA9D1613631AE90069815F /* PanelListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanelListViewController.h; sourceTree = "<group>"; };
+		44CA9D1713631AE90069815F /* PanelListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanelListViewController.m; sourceTree = "<group>"; };
+		44CA9D1813631AE90069815F /* PanelListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PanelListViewController.xib; sourceTree = "<group>"; };
+		44D1CE85136B12DA0046AAB5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		44D1CE90136B3B340046AAB5 /* Cliente.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cliente.h; sourceTree = "<group>"; };
+		44D1CE91136B3B340046AAB5 /* Cliente.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cliente.m; sourceTree = "<group>"; };
+		44D1CE93136B752C0046AAB5 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncSocket.h; path = ../Asyncsocket/AsyncSocket.h; sourceTree = "<group>"; };
+		44D1CE94136B752C0046AAB5 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncSocket.m; path = ../Asyncsocket/AsyncSocket.m; sourceTree = "<group>"; };
+		44D4D282138010A10034C004 /* Panel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Panel.h; sourceTree = "<group>"; };
+		44D4D283138010A10034C004 /* Panel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Panel.m; sourceTree = "<group>"; };
+		44D4D286138271870034C004 /* UIColorRGBValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorRGBValueTransformer.h; sourceTree = "<group>"; };
+		44D4D287138271880034C004 /* UIColorRGBValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorRGBValueTransformer.m; sourceTree = "<group>"; };
+		44E819BD1365E1BC0086AC16 /* PanelEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanelEditController.h; sourceTree = "<group>"; };
+		44E819BE1365E1BC0086AC16 /* PanelEditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanelEditController.m; sourceTree = "<group>"; };
+		44E819C21365E9D20086AC16 /* NSArray-NestedArrays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray-NestedArrays.h"; sourceTree = "<group>"; };
+		44E819C31365E9D20086AC16 /* NSArray-NestedArrays.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray-NestedArrays.m"; sourceTree = "<group>"; };
+		44E819C51365EC860086AC16 /* PanelValueDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanelValueDisplay.h; sourceTree = "<group>"; };
+		44E819C61365EC860086AC16 /* PanelValueDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanelValueDisplay.m; sourceTree = "<group>"; };
+		44E819C8136619200086AC16 /* ManagedObjectAttributeEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagedObjectAttributeEditor.h; sourceTree = "<group>"; };
+		44E819C9136619200086AC16 /* ManagedObjectAttributeEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagedObjectAttributeEditor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44CA9CF0136317760069815F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D1CE86136B12DA0046AAB5 /* CFNetwork.framework in Frameworks */,
+				44CA9CF8136317760069815F /* UIKit.framework in Frameworks */,
+				44CA9CFA136317760069815F /* Foundation.framework in Frameworks */,
+				44CA9CFC136317760069815F /* CoreGraphics.framework in Frameworks */,
+				44CA9CFE136317760069815F /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44CA9CE8136317760069815F = {
+			isa = PBXGroup;
+			children = (
+				44D1CE8F136B3A5E0046AAB5 /* Sockets */,
+				44E819C11365E9640086AC16 /* Categories */,
+				44CA9CFF136317760069815F /* AreaDeDescanso */,
+				44CA9CF6136317760069815F /* Frameworks */,
+				44CA9CF4136317760069815F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44CA9CF4136317760069815F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44CA9CF3136317760069815F /* AreaDeDescanso.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44CA9CF6136317760069815F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D1CE85136B12DA0046AAB5 /* CFNetwork.framework */,
+				44CA9CF7136317760069815F /* UIKit.framework */,
+				44CA9CF9136317760069815F /* Foundation.framework */,
+				44CA9CFB136317760069815F /* CoreGraphics.framework */,
+				44CA9CFD136317760069815F /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44CA9CFF136317760069815F /* AreaDeDescanso */ = {
+			isa = PBXGroup;
+			children = (
+				44CA9D08136317760069815F /* AreaDeDescansoAppDelegate.h */,
+				44CA9D09136317760069815F /* AreaDeDescansoAppDelegate.m */,
+				44CA9D0B136317760069815F /* MainWindow.xib */,
+				44CA9D0E136317760069815F /* AreaDeDescanso.xcdatamodeld */,
+				44D4D282138010A10034C004 /* Panel.h */,
+				44D4D283138010A10034C004 /* Panel.m */,
+				44CA9D00136317760069815F /* Supporting Files */,
+				44CA9D1613631AE90069815F /* PanelListViewController.h */,
+				44CA9D1713631AE90069815F /* PanelListViewController.m */,
+				44CA9D1813631AE90069815F /* PanelListViewController.xib */,
+				44ABA198137D0306007C1D11 /* PANELCell.h */,
+				44ABA199137D0306007C1D11 /* PANELCell.m */,
+				4482A5F513798F68004E8B08 /* PANELCell.xib */,
+				44E819BD1365E1BC0086AC16 /* PanelEditController.h */,
+				44E819BE1365E1BC0086AC16 /* PanelEditController.m */,
+				44E819C8136619200086AC16 /* ManagedObjectAttributeEditor.h */,
+				44E819C9136619200086AC16 /* ManagedObjectAttributeEditor.m */,
+				44610A5713697DF00073C47A /* ManagedObjectStringEditor.h */,
+				44610A5813697DF10073C47A /* ManagedObjectStringEditor.m */,
+				44D4D286138271870034C004 /* UIColorRGBValueTransformer.h */,
+				44D4D287138271880034C004 /* UIColorRGBValueTransformer.m */,
+			);
+			path = AreaDeDescanso;
+			sourceTree = "<group>";
+		};
+		44CA9D00136317760069815F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44CA9D01136317760069815F /* AreaDeDescanso-Info.plist */,
+				44CA9D02136317760069815F /* InfoPlist.strings */,
+				44CA9D05136317760069815F /* AreaDeDescanso-Prefix.pch */,
+				44CA9D06136317760069815F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44D1CE8F136B3A5E0046AAB5 /* Sockets */ = {
+			isa = PBXGroup;
+			children = (
+				44D1CE93136B752C0046AAB5 /* AsyncSocket.h */,
+				44D1CE94136B752C0046AAB5 /* AsyncSocket.m */,
+				44D1CE90136B3B340046AAB5 /* Cliente.h */,
+				44D1CE91136B3B340046AAB5 /* Cliente.m */,
+			);
+			name = Sockets;
+			sourceTree = "<group>";
+		};
+		44E819C11365E9640086AC16 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				44E819C21365E9D20086AC16 /* NSArray-NestedArrays.h */,
+				44E819C31365E9D20086AC16 /* NSArray-NestedArrays.m */,
+				44E819C51365EC860086AC16 /* PanelValueDisplay.h */,
+				44E819C61365EC860086AC16 /* PanelValueDisplay.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44CA9CF2136317760069815F /* AreaDeDescanso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CA9D13136317760069815F /* Build configuration list for PBXNativeTarget "AreaDeDescanso" */;
+			buildPhases = (
+				44CA9CEF136317760069815F /* Sources */,
+				44CA9CF0136317760069815F /* Frameworks */,
+				44CA9CF1136317760069815F /* Resources */,
+				44F9C9D713BDCBD900651CF8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AreaDeDescanso;
+			productName = AreaDeDescanso;
+			productReference = 44CA9CF3136317760069815F /* AreaDeDescanso.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44CA9CEA136317760069815F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 44CA9CED136317760069815F /* Build configuration list for PBXProject "AreaDeDescanso" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 44CA9CE8136317760069815F;
+			productRefGroup = 44CA9CF4136317760069815F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44CA9CF2136317760069815F /* AreaDeDescanso */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44CA9CF1136317760069815F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CA9D04136317760069815F /* InfoPlist.strings in Resources */,
+				44CA9D0D136317760069815F /* MainWindow.xib in Resources */,
+				44CA9D1A13631AE90069815F /* PanelListViewController.xib in Resources */,
+				4482A5F613798F69004E8B08 /* PANELCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44F9C9D713BDCBD900651CF8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Developer/iphoneentitlements401/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44CA9CEF136317760069815F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CA9D07136317760069815F /* main.m in Sources */,
+				44CA9D0A136317760069815F /* AreaDeDescansoAppDelegate.m in Sources */,
+				44CA9D10136317760069815F /* AreaDeDescanso.xcdatamodeld in Sources */,
+				44CA9D1913631AE90069815F /* PanelListViewController.m in Sources */,
+				44E819BF1365E1BC0086AC16 /* PanelEditController.m in Sources */,
+				44E819C41365E9D20086AC16 /* NSArray-NestedArrays.m in Sources */,
+				44E819C71365EC860086AC16 /* PanelValueDisplay.m in Sources */,
+				44E819CA136619200086AC16 /* ManagedObjectAttributeEditor.m in Sources */,
+				44610A5913697DF10073C47A /* ManagedObjectStringEditor.m in Sources */,
+				44D1CE92136B3B340046AAB5 /* Cliente.m in Sources */,
+				44D1CE95136B752C0046AAB5 /* AsyncSocket.m in Sources */,
+				44ABA19A137D0306007C1D11 /* PANELCell.m in Sources */,
+				44D4D284138010A10034C004 /* Panel.m in Sources */,
+				44D4D288138271890034C004 /* UIColorRGBValueTransformer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44CA9D02136317760069815F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CA9D03136317760069815F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		44CA9D0B136317760069815F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CA9D0C136317760069815F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44CA9D11136317760069815F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos4.3;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		44CA9D12136317760069815F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos4.3;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
+		44CA9D14136317760069815F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AreaDeDescanso/AreaDeDescanso-Prefix.pch";
+				INFOPLIST_FILE = "AreaDeDescanso/AreaDeDescanso-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		44CA9D15136317760069815F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AreaDeDescanso/AreaDeDescanso-Prefix.pch";
+				INFOPLIST_FILE = "AreaDeDescanso/AreaDeDescanso-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44CA9CED136317760069815F /* Build configuration list for PBXProject "AreaDeDescanso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CA9D11136317760069815F /* Debug */,
+				44CA9D12136317760069815F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44CA9D13136317760069815F /* Build configuration list for PBXNativeTarget "AreaDeDescanso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CA9D14136317760069815F /* Debug */,
+				44CA9D15136317760069815F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		44CA9D0E136317760069815F /* AreaDeDescanso.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				44CA9D0F136317760069815F /* AreaDeDescanso.xcdatamodel */,
+			);
+			currentVersion = 44CA9D0F136317760069815F /* AreaDeDescanso.xcdatamodel */;
+			path = AreaDeDescanso.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 44CA9CEA136317760069815F /* Project object */;
+}
